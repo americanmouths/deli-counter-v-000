@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli []
 
-def line(array, index)
+def line
   new_array = []
   if array.length > 1
     array.each_with_index do |name, line|
@@ -11,6 +11,6 @@ def line(array, index)
   else
     puts "The line is currently empty."
   end
-  return new_array
 end
+  return new_array
 end
