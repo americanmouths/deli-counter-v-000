@@ -20,7 +20,6 @@ def now_serving(katz_deli, name)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{name}."
-    katz_deli.delete_at(-1)
+    katz_deli.pop
   end
 end
-  
