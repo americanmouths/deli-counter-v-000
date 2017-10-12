@@ -16,8 +16,6 @@ def take_a_number(katz_deli, name)
   katz_deli.each.with_index(1) do |name, position|
   current_line << "Welcome, #{name}. You are number #{position} in line."
 else
-  puts "The line is currently empty."
-end
-return current_line
+  return current_line
 end
 end
