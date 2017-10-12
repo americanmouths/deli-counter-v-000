@@ -11,6 +11,5 @@ def line
   else
     puts "The line is currently empty."
 end
-  return new_array
 end
-
+end
