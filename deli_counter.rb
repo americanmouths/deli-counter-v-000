@@ -8,7 +8,8 @@ def line
     lineplus1 = line + 1
     output = puts "The line is currently: #{lineplus1} #{name}"
     new_array << output
-  else 
+  else
     puts "The line is currently empty."
+end
 end
 end
