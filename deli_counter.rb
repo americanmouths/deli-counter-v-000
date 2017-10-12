@@ -10,7 +10,6 @@ def line
   else
     puts "The line is currently empty."
 end
-end
 return katz_deli
 end
 end
