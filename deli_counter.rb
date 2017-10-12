@@ -2,11 +2,10 @@ def line(deli)
   if deli.empty?
     puts "The line is currently empty."
   else
-    deli.each_with_index do |name, line|
-    lineplus1 = line + 1
-    output = "The line is currently: #{lineplus1} #{name}"
-    deli << output
+    current_line = "The line is currently:"
+    deli.each_with_index(1) do |name, i|
+    current_line << "#{i} #{name}"
 end
-puts deli
+puts current_line
 end
 end
