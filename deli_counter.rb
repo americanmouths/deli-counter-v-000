@@ -10,8 +10,7 @@ def line
     new_array << output
   else
     puts "The line is currently empty."
-  end
 end
   return new_array
 end
-end
+
